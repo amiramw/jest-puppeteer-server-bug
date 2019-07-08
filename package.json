@@ -1,0 +1,22 @@
+{
+  "name": "jest-puppeteer-server-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest-puppeteer.config.js",
+  "scripts": {
+    "test": "jest --config jest.config.integration.js --verbose --color"
+  },
+  "devDependencies": {
+    "@types/expect-puppeteer": "3.3.0",
+    "@types/jest": "23.3.10",
+    "@types/jest-environment-puppeteer": "2.2.1",
+    "@types/puppeteer": "1.11.1",
+    "jest": "23.6.0",
+    "jest-puppeteer": "4.0.0",
+    "puppeteer": "1.11.0",
+    "ts-jest": "23.10.5",
+    "ts-node": "<7.0.0"
+  },
+  "author": "amiramw",
+  "license": "ISC"
+}
